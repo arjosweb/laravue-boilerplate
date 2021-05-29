@@ -14,12 +14,17 @@ SPA - Laravel (8) + VueJS (2)
 
 ## Get started
 
-#### Laravel dependencies
+#### Laravel dependencies install
 ```
 composer install
 ```
 
-#### Front-end dependencies
+#### Configure .ENV file - `Laravel`
+```html
+rename ".env.example" file to ".env"
+```
+
+#### Front-end dependencies - `Vue.JS`
 ```
 yarn install
 ```
