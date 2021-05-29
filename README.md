@@ -14,30 +14,34 @@ SPA - Laravel (8) + VueJS (2)
 
 ## Get started
 
-#### Laravel dependencies install
+### Laravel dependencies install
 ```
 composer install
 ```
 
-#### Configure .ENV file - `Laravel`
+### Configure .ENV file - `Laravel`
 ```html
 rename ".env.example" file to ".env"
 ```
 
-#### Front-end dependencies - `Vue.JS`
+### Front-end dependencies - `Vue.JS`
 ```
 yarn install
 ```
 
 ## Run project
 
-#### Terminal #1
+### Terminal #1
 ```
 php artisan serve
 ```
-#### Terminal #2
+### Terminal #2
 ```
 yarn watch
+```
+######Realtime edition
+```
+yarn watch --hot
 ```
 
 ## License
